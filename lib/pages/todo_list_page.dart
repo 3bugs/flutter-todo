@@ -11,8 +11,9 @@ class TodoListPage extends StatefulWidget {
 class _TodoListPageState extends State<TodoListPage> {
   final _controller = TextEditingController();
   final List<TodoModel> _todoList = [
-    TodoModel(text: 'ทดสอบ', isDone: false),
-    TodoModel(text: 'Hello Flutter', isDone: true),
+    TodoModel(text: 'ทำการบ้านครั้งที่ 4 วิชา Mobile App Dev', isDone: true),
+    TodoModel(text: 'ทำการบ้านครั้งที่ 5 วิชา Mobile App Dev', isDone: false),
+    TodoModel(text: 'ทำโปรเจ็ควิชา Mobile App Dev', isDone: false),
   ];
 
   @override
